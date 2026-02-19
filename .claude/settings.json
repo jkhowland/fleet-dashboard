@@ -1,0 +1,112 @@
+{
+  "allowedTools": [
+    "Edit",
+    "Write",
+    "Read",
+    "Glob",
+    "Grep",
+    "Bash(git *)",
+    "Bash(gh *)",
+    "Bash(pnpm *)",
+    "Bash(npx *)",
+    "Bash(node *)",
+    "Bash(find *)",
+    "Bash(ls *)",
+    "Bash(cat *)",
+    "Bash(mkdir *)",
+    "Bash(rm *)",
+    "Bash(cp *)",
+    "Bash(mv *)",
+    "Bash(supabase *)"
+  ],
+  "skills": {
+    "create-issue": {
+      "description": "Create GitHub issue with acceptance criteria",
+      "path": "skills/create-issue.md"
+    },
+    "setup-worktree": {
+      "description": "Branch from staging, configure isolated environment, start autonomous mode",
+      "path": "skills/setup-worktree.md"
+    },
+    "autonomous-prompt": {
+      "description": "Generate implementation prompt from issue",
+      "path": "skills/autonomous-prompt.md"
+    },
+    "create-pr": {
+      "description": "Run tests, create PR targeting staging",
+      "path": "skills/create-pr.md"
+    },
+    "code-review": {
+      "description": "Review PR, post comments",
+      "path": "skills/code-review.md"
+    },
+    "implement-review-feedback": {
+      "description": "Fix review comments",
+      "path": "skills/implement-review-feedback.md"
+    },
+    "review-loop": {
+      "description": "Iterate code-review + implement until clean",
+      "path": "skills/review-loop.md"
+    },
+    "submit-pr": {
+      "description": "create-pr + review-loop combined",
+      "path": "skills/submit-pr.md"
+    },
+    "merge-pr": {
+      "description": "Merge to staging, cleanup worktree",
+      "path": "skills/merge-pr.md"
+    },
+    "promote-to-main": {
+      "description": "PR from staging to main for release",
+      "path": "skills/promote-to-main.md"
+    },
+    "batch-evaluate-issues": {
+      "description": "Batch process all open GitHub issues for triage",
+      "path": "skills/batch-evaluate-issues.md"
+    },
+    "compact-sessions": {
+      "description": "Check and compact tmux sessions that hit context limits",
+      "path": "skills/compact-sessions.md"
+    },
+    "component-testing": {
+      "description": "Validate component testing coverage for new/modified components",
+      "path": "skills/component-testing.md"
+    },
+    "coverage": {
+      "description": "Run tests with coverage and post results to PR",
+      "path": "skills/coverage.md"
+    },
+    "deploy": {
+      "description": "Deploy app to staging or production",
+      "path": "skills/deploy.md"
+    },
+    "e2e-tests": {
+      "description": "Run E2E tests and post results to PR",
+      "path": "skills/e2e-tests.md"
+    },
+    "evaluate-issue": {
+      "description": "Evaluate single issue for validity and metadata",
+      "path": "skills/evaluate-issue.md"
+    },
+    "integration-tests": {
+      "description": "Run integration tests and post results to PR",
+      "path": "skills/integration-tests.md"
+    },
+    "test-all": {
+      "description": "Run comprehensive test suite (unit, integration, e2e, coverage)",
+      "path": "skills/test-all.md"
+    },
+    "test-staging": {
+      "description": "Verify staging deployment with health checks and smoke tests",
+      "path": "skills/test-staging.md"
+    },
+    "unit-tests": {
+      "description": "Run unit tests and post results to PR",
+      "path": "skills/unit-tests.md"
+    },
+    "supabase": {
+      "description": "Manage Supabase migrations, schema changes, and database operations",
+      "path": "skills/supabase.md"
+    }
+  }
+}
